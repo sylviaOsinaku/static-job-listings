@@ -70,7 +70,7 @@ const filterFuncAddDom = function () {
 
 ### Continued development
 
-The new aand featured properties of each project styles show be added and removed dynamically 
+The new and featured properties of each project styles show be added and removed dynamically 
 
 
 
@@ -78,15 +78,15 @@ The new aand featured properties of each project styles show be added and remove
 
 ### Useful resources
 
-- [Example resource 1](https://getcssscan.com/css-box-shadow-examples) - This helped me for box shadows reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.w3schools.com/) - This is an amazing article which helped me finally understand array methods. I'd recommend it to anyone still learning this concept.
+- [(https://getcssscan.com/css-box-shadow-examples)](https://getcssscan.com/css-box-shadow-examples) - This helped me for box shadows reason. I really liked this pattern and will use it going forward.
+- [(https://www.w3schools.com/)] - This is an amazing article which helped me finally understand array methods. I'd recommend it to anyone still learning this concept.
 
 
 
 ## Author
 
-- Website - [Osinaku ugonna Syvia](https://www.your-site.com)
-- Frontend Mentor - [@sylviaosinaku2005](https://www.frontendmentor.io/profile/@sylviaosinaku2005)
+- Name - [Osinaku ugonna Syvia]()
+- Frontend Mentor - [@sylviaosinaku2005](https://www.frontendmentor.io/profile/@sylviaOsinaku2005)
 - Twitter - [@yourusername](https://www.twitter.com/sylviaosinaku)
 
 
