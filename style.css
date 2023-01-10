@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  background-color: hsl(180, 52%, 96%);
+}
+
+header {
+  background-color: hsl(180, 29%, 50%);
+
+}
+
+.header-image-mobile {
+  display: none;
+}
+
+.filtered--keys {
+  display: flex;
+  gap: 1em;
+}
+
+.clear--filter {
+  color: hsl(180, 29%, 50%);
+  border: none;
+  background-color: none;
+  text-decoration: underline;
+  font-size: .8rem;
+  padding: .2em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header-filtered-keys {
+  animation: zoomIn .5s;
+  transform: translateY(+50%);
+  background-color: #fff;
+  display: flex;
+  margin: 0em 3em;
+  padding: 1em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_image {
+  width: 100%;
+  object-fit: contain;
+}
+
+main {
+  margin: 2.5em;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 1em;
+}
+
+.account-container-section {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.company_name,
+.new_text,
+.featured_text {
+  font-size: .8rem;
+}
+
+.new_text {
+  background-color: hsl(180, 29%, 50%);
+  color: #fff;
+  border-radius: 5px;
+
+}
+
+.featured_text {
+  background-color: #121212cf;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.company_stats_div {
+  display: flex;
+  gap: 1em;
+  margin-bottom: .3em;
+  align-items: center;
+
+}
+
+.company_logo {
+  object-fit: contain;
+
+}
+
+.btn,
+.close-btn {
+  background-color: hsl(180, 31%, 95%);
+  color: hsl(180, 29%, 50%);
+  border: none;
+  padding: .3em;
+  font-size: .7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.15s;
+}
+
+.btn:hover {
+  background-color: hsl(180, 29%, 50%);
+  color: hsl(180, 31%, 95%);
+}
+
+.close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}
+
+.close--icon {
+  background-color: #121212cf;
+  padding: .3em;
+}
+
+.job_account--text {
+  font-size: 1rem;
+  margin-bottom: .3em;
+}
+
+.personal_stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: .8rem;
+  gap: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width :570px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .personal_stats {
+    font-size: .7rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .header_image {
+    display: none;
+
+  }
+
+  .header-image-mobile {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  main {
+    margin-top:
+      6em;
+  }
+
+  .filtered--keys {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    margin-bottom: 2em;
+  }
+
+  .account-container-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .company_logo {
+    text-align: start;
+    margin-top: -2.5em;
+    width: 25%;
+  }
+
+  .personal_stats {
+    margin-bottom: 1em;
+  }
+}

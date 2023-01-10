@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Job Listings</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      padding-bottom: 1.5em;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header class="header">
+    <img src="images/bg-header-desktop.svg" alt="" class="header_image">
+    <img src="images/bg-header-mobile.svg" alt="" class="header-image-mobile">
+    <div class="header-filtered-keys hidden">
+      <div class="filtered--keys">
+
+      </div>
+      <span class="clear--filter">Clear</span>
+    </div>
+
+
+  </header>
+
+
+  <main class="main">
+    <div class="container">
+      <div class="account-container-section">
+        <img src="images/photosnap.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name"> Photosnap</h2>
+            <p class="new_text">New!</p>
+            <p class="featured_text">Featured</p>
+          </div>
+
+          <h1 class="job_account--text">Senior Frontend Developer</h1>
+          <div class="personal_stats">
+            <p>1d ago</p>
+            <p>Full Time</p>
+            <p>USA only</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button data-role="Frontend" class="btn">Frontend</button>
+        <button data-level="senior" class="btn">Senior</button>
+        <button data-language="html" class="btn">HTML</button>
+        <button data-language="css" class="btn"> CSS</button>
+        <button data-language="javascript" class="btn">JavaScript</button>
+
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/manage.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">Manage</h2>
+            <p class="new_text">New!</p>
+            <p class="featured_text">Featured</p>
+          </div>
+
+          <h1 class="job_account--text">Fullstack Developer</h1>
+          <div class="personal_stats">
+            <p>1d ago</p>
+            <p>Part Time</p>
+            <p>Remote</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button data-role="fullstack" class="btn">Fullstack</button>
+        <button data-level="midweight" class="btn">Midweight</button>
+        <button data-language="python" class="btn">Python</button>
+        <button data-tools="react" class="btn">React</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/account.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">account</h2>
+            <p class="new_text">New!</p>
+          </div>
+
+          <h1 class="job_account--text">Junior Frontend Developer</h1>
+          <div class="personal_stats">
+            <p>2d ago</p>
+            <p>Part Time</p>
+            <p>USA only</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button class="btn" data-role="Frontend">Frontend</button>
+        <button class="btn" data-level="junior">Junior</button>
+        <button class="btn" data-tools="react">React</button>
+        <button class="btn" data-tools="sass">Sass</button>
+        <button class="btn" data-language="javascript">JavaScript</button>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/myhome.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">My Home</h2>
+
+          </div>
+
+          <h1 class="job_account--text">Junior Frontend Developer</h1>
+          <div class="personal_stats">
+            <p>5d ago</p>
+            <p>Contract</p>
+            <p>USA only</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button class="btn" data-role="Frontend">Frontend</button>
+        <button class="btn" data-level="Junior">Junior</button>
+        <button class="btn" data-language="css"> CSS</button>
+        <button class="btn" data-language="javascript">JavaScript</button>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/loop-studios.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">Lopp Studios</h2>
+          </div>
+
+          <h1 class="job_account--text">Software Engineer</h1>
+          <div class="personal_stats">
+            <p>1w ago</p>
+            <p>Full Time</p>
+            <p>Worldwide</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button class="btn" data-role="fullstack">Fullstack</button>
+        <button class="btn" data-level="midweight">Midweight</button>
+        <button class="btn" data-language="javascript">JavaScript</button>
+        <button class="btn" data-tools="sass">Sass</button>
+        <button class="btn" data-language="ruby">Ruby</button>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/faceit.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">Faceit</h2>
+          </div>
+
+          <h1 class="job_account--text">Junior Backend Developer</h1>
+          <div class="personal_stats">
+            <p>2w ago</p>
+            <p>Full Time</p>
+            <p>UK only</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button class="btn" data-role="Backend">Backend</button>
+        <button class="btn" data-level="Junior">Junior</button>
+        <button class="btn" data-language="ruby">Ruby</button>
+        <button class="btn" data-tools="ror">RoR</button>
+
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/shortly.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">Shortly</h2>
+          </div>
+
+          <h1 class="job_account--text">Junior Developer</h1>
+          <div class="personal_stats">
+            <p>2w ago</p>
+            <p>Full Time</p>
+            <p>Worldwide</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button class="btn" data-role="Frontend">Frontend</button>
+        <button class="btn" data-level="junior">Junior</button>
+        <button class="btn" data-language="html"> HTML</button>
+        <button class="btn" data-tools="sass"> Sass</button>
+        <button class="btn" data-language="javascript">JavaScript</button>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/insure.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">Insure</h2>
+          </div>
+
+          <h1 class="job_account--text">Junior Frontend Developer</h1>
+          <div class="personal_stats">
+            <p>2w ago</p>
+            <p>Full Time</p>
+            <p>USA only</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button class="btn" data-role="Frontend">Frontend</button>
+        <button class="btn" data-level="Junior">Junior</button>
+        <button class="btn" data-tools="vue"> Vue</button>
+        <button class="btn" data-language="javascript">JavaScript</button>
+        <button class="btn" data-tools="sass">Sass</button>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/eyecam-co.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">Eyecam Co.</h2>
+
+          </div>
+
+          <h1 class="job_account--text">Senior Frontend Developer</h1>
+          <div class="personal_stats">
+            <p>3w ago</p>
+            <p>Full Time</p>
+            <p>Worldwide</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button class="btn" data-role="Fullstack">Fullstack</button>
+        <button class="btn" data-level="midweight">Midweight</button>
+        <button class="btn" data-language="javascript">JavaScript</button>
+        <button class="btn" data-tools="django">Django</button>
+        <button class="btn" data-language="python">Python</button>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="account-container-section"> <img src="images/the-air-filter-company.svg" alt="" class="company_logo">
+        <div>
+          <div class="company_stats_div">
+            <h2 class="company_name">The air Filter Company</h2>
+          </div>
+
+          <h1 class="job_account--text"> Front-end Dev</h1>
+          <div class="personal_stats">
+            <p>1m ago</p>
+            <p>Part Time</p>
+            <p>Worldwide</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div><button class="btn" data-role="Frontend">Frontend</button>
+        <button class="btn" data-level="junior">Junior</button>
+        <button class="btn" data-tools="react">React</button>
+        <button class="btn" data-tools="sass">Sass</button>
+        <button class="btn" data-language="javascript">JavaScript</button>
+
+      </div>
+    </div>
+
+
+
+
+  </main>
+
+
+
+  <script src="script.js"></script>
+  <div class="attribution">
+    Challenge by <a href="https://www.Frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Osinaku Ugonna Sylvia</a>.
+  </div>
+</body>
+
+</html>
